@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.colores {
+color: hsl(208, 100%, 8%);
+color: hsl(208, 100%, 15%);
+color: hsl(208, 100%, 74%);
+color: hsl(208, 100%, 94%);
+color: hsl(286, 100%, 65%);
+}
+
+/* estilos generales */
+body {
+background-color: hsl(208, 100%, 94%); /* Color de fondo */
+color:hsl(208, 100%, 8%); /* Color de la tipografía */
+font-family: "inter", sans-serif;
+margin: 0;
+line-height: 1.5;  /*EN LINE HEIGHT TOMA EL NUMERO (SIN REM) COMO UN VALOR DE PROPORCION PARA TODAS LAS ETIQUETAS*/
+}
+
+section h1{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 600;
+}
+section h2{
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+
+/*estilos de header*/
+
+footer,
+header{
+    background-color: hsl(208, 100%, 8%);
+    color: hsl(208, 100%, 94%);
+}
+
+header h1{
+    color: hsl(286, 100%, 65%);
+    font-size: 4rem;
+    text-align: left;
+    margin-top: 0;
+}
+
+header nav{
+    color: hsl(208, 100%, 94%);
+}
+
+header a{
+    color: hsl(208, 100%, 94%);
+}
+
+a.logo:link,
+a.logo:visited{
+    color: hsl(208, 100%, 94%)
+}
+
+a.logo:hover,
+a.logo:active{
+    color: hsl(286, 100%, 65%)
+}
+
+a.nav:link,
+a.nav:visited{
+    color: hsl(208, 100%, 94%)
+}
+
+a.nav:hover,
+a.nav:active{
+    color: hsl(286, 100%, 65%)
+}
+
+header h1 a{
+    color: hsl(286, 100%, 65%);
+    text-decoration: none;
+}
+
+/*main*/
+main section{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+main a{
+    text-decoration: none;
+    color: hsl(208, 100%, 8%);
+}
+
+main a:hover,
+main a:active{
+    color: hsl(208, 100%, 50%);
+}
+
+.contenedor-flex{
+    height: 32rem;
+    padding: 1rem;
+    background-color: hsl(208, 100%, 74%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /*eje PRINCIPAL*/
+    align-items: center;  /*eje SECUNDARIO*/
+    gap: 6rem;
+}
+.item{
+    border: 0.2rem solid hsl(208, 100%, 8%);
+    padding: 2rem;
+    border-radius: 30%;
+}
+/*estilos de footer*/
+footer{
+    background-color: hsl(208, 100%, 8%);
+    color: hsl(208, 100%, 94%);
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+footer h1{
+    font-size: 1.5rem;
+}
+
+footer nav{
+    color: hsl(208, 100%, 94%);
+}
